@@ -1,3 +1,9 @@
 {
-	"Home": "Asosiy"
+	"navLink1": "Bosh sahifa",
+	"navLink2": "Kurslar",
+	"navLink3": "Bloglar",
+	"navLink4": "Aloqa",
+	"manageAccount": "Profilni boshqarish",
+	"logout": "Chiqish",
+	"signUp": "Ro'yxatdan o'tish"
 }
