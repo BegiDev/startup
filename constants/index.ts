@@ -1,7 +1,5 @@
 import {
-	Bell,
 	Contact,
-	CreditCard,
 	FileCode,
 	GaugeCircle,
 	Home,
@@ -10,7 +8,6 @@ import {
 	MonitorPlay,
 	Rss,
 	Settings2,
-	User,
 } from 'lucide-react'
 import {
 	DiCisco,
@@ -60,9 +57,9 @@ export const companies = [
 
 export const filterCourses = [
 	{ label: 'cateogry1', name: 'all' },
-	{ label: 'cateogry2', name: 'newest' },
-	{ label: 'cateogry3', name: 'lowest-price' },
-	{ label: 'cateogry4', name: 'highest-price' },
+	{ label: 'cateogry2', name: 'trending' },
+	{ label: 'cateogry3', name: 'popular' },
+	{ label: 'cateogry4', name: 'featured' },
 ]
 
 export const filterLevels = [
@@ -220,8 +217,35 @@ export const learningJourney = [
 	},
 ]
 
-export const courseLevels = ['beginner', 'intermediate', 'advanced']
+export const instructorNavLinks = [
+	{
+		label: 'Dashboard',
+		route: '/instructor',
+		icon: GaugeCircle,
+	},
+	{
+		label: 'My Courses',
+		route: '/instructor/my-courses',
+		icon: MonitorPlay,
+	},
+	{
+		label: 'Create Course',
+		route: '/instructor/create-course',
+		icon: FileCode,
+	},
+	{
+		label: 'Reviews',
+		route: '/instructor/reviews',
+		icon: MessageSquareMore,
+	},
+	{
+		label: 'Settings',
+		route: '/instructor/settings',
+		icon: Settings2,
+	},
+]
 
+export const courseLevels = ['beginner', 'intermediate', 'advanced']
 export const courseCategory = [
 	'front-end',
 	'back-end',
@@ -230,5 +254,4 @@ export const courseCategory = [
 	'desktop',
 	'game',
 ]
-
 export const courseLanguage = ['english', 'uzbek', 'russian', 'turkish']

@@ -19,6 +19,10 @@ import {
 	Star,
 } from 'lucide-react'
 
+const learn = 'JavaScript, AJAX, Algoritm, Promise, Git va Github, JSON-Server'
+const forWhom =
+	"Dasturlashga qiziqish borlar, JavaScript dasturlash tilini o'rganish istagi, Amaliy loyihalar qilish"
+
 function Overview() {
 	const t = useTranslate()
 
